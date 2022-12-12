@@ -17,6 +17,10 @@ class Api {
     }
     return responseJson;
   }
+
+  delete(String apiUrl) {}
+
+  get(String apiUrl) {}
 }
 
 Future<dynamic> delete(dynamic url) async {
